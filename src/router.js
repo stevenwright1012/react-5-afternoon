@@ -21,15 +21,8 @@ export default  (
             <HashRouter>
                 <div>
                     <Route exact path= '/' component={NextBtn} />
-
-                    <Route 
-                        path='/wOne' 
-                        component={WizardOne} 
-                            />
-                    <Route
-                        path="/wTwo" 
-                        component={WizardTwo}
-                            />
+                    <Route path='/wOne' component={WizardOne}/>
+                    <Route path="/wTwo" component={WizardTwo}/>
                     <Route component={WizardThree} path="/wThree"/>
                     <Route component={WizardFour} path="/wFour"/>
                     <Route component={WizardFive} path="/wFive"/>
